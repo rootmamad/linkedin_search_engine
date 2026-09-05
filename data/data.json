@@ -6071,29 +6071,52 @@
     "facebook_url": "facebook.com/chris.benefiel"
   },
   {
-    "id": 169,
-    "full_name": "joshua solove",
-    "gender": "male",
-    "linkedin_url": "linkedin.com/in/joshua-solove-7a8a242",
-    "job_title": "senior program manager",
-    "job_title_role": "operations",
-    "job_title_levels": ["manager", "senior"],
-    "company_name": "azimuth-corporation",
-    "company_industry": "government administration",
-    "company_country": "united states",
-    "company_region": "ohio",
-    "location_country": "united states",
-    "location_region": "virginia",
-    "summary": "Accomplished manager and analyst with experience in risk management, military affairs and marketing. Several years experience with the largest Environmental Insurance group in the world. While on Active Duty for the US Army supported numerous organizations of over 3,000 people to include Department of State and Non-Governmental Organizations. Results-oriented professional with strong analytical and strategic planning abilities paired with superior client and project management skills. Firmly committed to earning and inspiring rapport and confidence with all members of a team. Strong leadership experience developed in numerous military school and two combat tours in Iraq and Afghanistan.",
-    "skills": [],
-    "experience": [],
-    "education": [],
-    "phone_numbers": [],
-    "emails": [
-      {"address": "jsolove@azimuth-corp.com", "type": "professional"}
-    ],
-    "facebook_url": null
-  }
+  "id": 169,
+  "full_name": "joshua solove",
+  "gender": "male",
+  "linkedin_url": "linkedin.com/in/joshua-solove-7a8a242",
+  "job_title": "senior program manager",
+  "job_title_role": "operations",
+  "job_title_levels": ["manager", "senior"],
+  "company_name": "azimuth corporation",
+  "company_industry": "government administration",
+  "company_country": "united states",
+  "company_region": "ohio",
+  "location_country": "united states",
+  "location_region": "colorado",
+  "summary": "Accomplished manager and analyst with experience in risk management, military affairs and marketing. Several years experience with the largest Environmental Insurance group in the world. While on Active Duty for the US Army supported numerous organizations of over 3,000 people to include Department of State and Non-Governmental Organizations. Results-oriented professional with strong analytical and strategic planning abilities paired with superior client and project management skills. Firmly committed to earning and inspiring rapport and confidence with all members of a team. Strong leadership experience developed in numerous military school and two combat tours in Iraq and Afghanistan. Specialties: army, banking, counterterrorism, customer relations, financial, financial analysis, government, intelligence, leadership, leadership training, market analysis, marketing, microsoft excel, microsoft outlook, microsoft powerpoint, microsoft word, real estate, retail, risk management, safety, sales, upgrades.",
+  "skills": [
+    "dod", "military", "intelligence", "defense", "counterterrorism", "top secret",
+    "government", "security clearance", "army", "command", "force protection",
+    "tactics", "navy", "security", "military operations", "national security",
+    "intelligence analysis", "leadership", "sigint", "information assurance",
+    "intelligence community", "air force", "afghanistan", "risk management"
+  ],
+  "experience": [
+    {"company_name": "eaglesnest", "job_title": "sales"},
+    {"company_name": "radiant solutions", "job_title": "program manager"},
+    {"company_name": "radiantblue technologies", "job_title": "program manager"},
+    {"company_name": "azimuth corporation", "job_title": "senior program manager"},
+    {"company_name": "northrop grumman corporation", "job_title": "program manager"},
+    {"company_name": "b", "job_title": "civil affairs team chief"},
+    {"company_name": "aig environmental", "job_title": "environmental underwriter"},
+    {"company_name": "tabacchi group", "job_title": "senior vice president"},
+    {"company_name": "radiant group", "job_title": "program manager and system engineer iv"},
+    {"company_name": "northrop grumman corporation", "job_title": "senior analyst and hydrologist"},
+    {"company_name": "us army", "job_title": "intelligence lieutenant"}
+  ],
+  "education": [
+    {"school_name": "jones real estate college", "degrees": [], "majors": ["real estate"]},
+    {"school_name": "metropolitan state university of denver", "degrees": ["bachelors", "bachelor of science"], "majors": ["management"]}
+  ],
+  "phone_numbers": ["+13038806036", "+13033731555", "+13037637552", "+13038630707"],
+  "emails": [
+    {"address": "cptsolove@gmail.com", "type": "personal"},
+    {"address": "joshua.solove@radianthrworld.com", "type": "professional"},
+    {"address": "jsolove@azimuth-corp.com", "type": "current_professional"}
+  ],
+  "facebook_url": "facebook.com/jsolove"
+}
 ,
   {
     "id": 170,
@@ -6848,29 +6871,50 @@
     "facebook_url": null
   },
   {
-    "id": 191,
-    "full_name": "david galbreath",
-    "gender": "male",
-    "linkedin_url": null,
-    "job_title": "fuel distribution system foreman",
-    "job_title_role": null,
-    "job_title_levels": ["manager"],
-    "company_name": "kbr-inc",
-    "company_industry": "construction",
-    "company_country": "united states",
-    "company_region": "texas",
-    "location_country": "iraq",
-    "location_region": null,
-    "summary": null,
-    "skills": [],
-    "experience": [
-      {"company_name": "kbr, inc.", "job_title": "fuel distribution system foreman"}
-    ],
-    "education": [],
-    "phone_numbers": [],
-    "emails": [],
-    "facebook_url": null
-  },
+  "id": 191,
+  "full_name": "david galbreath",
+  "gender": "male",
+  "linkedin_url": "linkedin.com/in/david-galbreath-bb651322",
+  "job_title": "fuel distribution system foreman",
+  "job_title_role": "operations",
+  "job_title_levels": ["manager"],
+  "company_name": "kbr, inc.",
+  "company_industry": "construction",
+  "company_country": "united states",
+  "company_region": "texas",
+  "location_country": "iraq",
+  "location_region": null,
+  "summary": "Performed services as a bulk fuel Foreman, distributing 150k per-day to the Marine air wing and 6k to the power plant, maintaining an accurate visibility of all fuel and forward to upper management for input into the Fuel Automated System for accountability to DESC.",
+  "skills": [
+    "shipping", "cost control", "logistics", "military", "logistics management",
+    "transportation management", "government contracting", "military logistics",
+    "operations management", "supervisory skills", "quality assurance",
+    "command", "security operations", "security clearance", "army", "weapons",
+    "security management", "contract negotiation", "earned value management",
+    "military operations", "supply chain management", "operational planning",
+    "construction safety", "industrial safety", "analysis", "emergency management",
+    "risk assessment", "management", "defense", "supply chain", "afghanistan",
+    "project planning", "process improvement", "security", "microsoft office",
+    "inspection", "materials management", "leadership", "contract management",
+    "team building", "inventory management", "dod", "process scheduler",
+    "safety management systems", "purchasing", "warehousing", "facilities management",
+    "distribution center operations", "materials", "military experience"
+  ],
+  "experience": [
+    {"company_name": "dyncorp international", "job_title": "fuel supervisor"},
+    {"company_name": "kbr, inc.", "job_title": "fuel distribution system foreman"}
+  ],
+  "education": [
+    {"school_name": "maxton hs", "degrees": [], "majors": ["general studies"]}
+  ],
+  "phone_numbers": ["+12547787643", "+12547710911", "+13182785005", "+13185336628", "+12547710991"],
+  "emails": [
+    {"address": "dogalbreath@yahoo.com", "type": "personal"},
+    {"address": "miraclewhipmiraclewhip@hotmail.com", "type": "personal"},
+    {"address": "deedra19gal@hotmail.com", "type": "personal"}
+  ],
+  "facebook_url": null
+},
   {
     "id": 192,
     "full_name": "artaveous nelson",
@@ -10890,98 +10934,6 @@
   },
   {
     "id": 297,
-    "full_name": "david galbreath",
-    "gender": null,
-    "linkedin_url": "linkedin.com/in/david-galbreath-bb651322",
-    "job_title": "fuel distribution system foreman",
-    "job_title_role": "operations",
-    "job_title_levels": ["manager"],
-    "company_name": "kbr, inc.",
-    "company_industry": "construction",
-    "company_country": "united states",
-    "company_region": "texas",
-    "location_country": "united states",
-    "location_region": "texas",
-    "summary": "Performed services as a bulk fuel Foreman, distributing 150k per-day to the Marine air wing and 6k to the power plant, maintaining an accurate visibility of all fuel and forward to upper management for input into the Fuel Automated System for accountability to DESC.",
-    "skills": [
-      "shipping", "cost control", "logistics", "military", "logistics management",
-      "transportation management", "government contracting", "military logistics",
-      "operations management", "supervisory skills", "quality assurance",
-      "command", "security operations", "security clearance", "army", "weapons",
-      "security management", "contract negotiation", "earned value management",
-      "military operations", "supply chain management", "operational planning",
-      "construction safety", "industrial safety", "analysis", "emergency management",
-      "risk assessment", "management", "defense", "supply chain", "afghanistan",
-      "project planning", "process improvement", "security", "microsoft office",
-      "inspection", "materials management", "leadership", "contract management",
-      "team building", "inventory management", "dod", "process scheduler",
-      "safety management systems", "purchasing", "warehousing", "facilities management",
-      "distribution center operations", "materials", "military experience"
-    ],
-    "experience": [
-      {"company_name": "dyncorp international", "job_title": "fuel supervisor"},
-      {"company_name": "kbr, inc.", "job_title": "fuel distribution system foreman"}
-    ],
-    "education": [
-      {"school_name": "maxton hs", "degrees": [], "majors": ["general studies"]}
-    ],
-    "phone_numbers": ["+12547787643", "+12547710911", "+13182785005", "+13185336628", "+12547710991"],
-    "emails": [
-      {"address": "dogalbreath@yahoo.com", "type": "personal"},
-      {"address": "miraclewhipmiraclewhip@hotmail.com", "type": "personal"},
-      {"address": "deedra19gal@hotmail.com", "type": "personal"}
-    ],
-    "facebook_url": null
-  },
-  {
-    "id": 298,
-    "full_name": "joshua solove",
-    "gender": null,
-    "linkedin_url": "linkedin.com/in/joshua-solove-7a8a242",
-    "job_title": "senior program manager",
-    "job_title_role": "operations",
-    "job_title_levels": ["manager", "senior"],
-    "company_name": "azimuth corporation",
-    "company_industry": "government administration",
-    "company_country": "united states",
-    "company_region": "ohio",
-    "location_country": "united states",
-    "location_region": "colorado",
-    "summary": "Specialties: army, banking, counterterrorism, customer relations, financial, financial analysis, government, intelligence, leadership, leadership training, market analysis, marketing, microsoft excel, microsoft outlook, microsoft powerpoint, microsoft word, real estate, retail, risk management, safety, sales, upgrades",
-    "skills": [
-      "dod", "military", "intelligence", "defense", "counterterrorism", "top secret",
-      "government", "security clearance", "army", "command", "force protection",
-      "tactics", "navy", "security", "military operations", "national security",
-      "intelligence analysis", "leadership", "sigint", "information assurance",
-      "intelligence community", "air force", "afghanistan", "risk management"
-    ],
-    "experience": [
-      {"company_name": "eaglesnest", "job_title": "sales"},
-      {"company_name": "radiant solutions", "job_title": "program manager"},
-      {"company_name": "radiantblue technologies", "job_title": "program manager"},
-      {"company_name": "azimuth corporation", "job_title": "senior program manager"},
-      {"company_name": "northrop grumman corporation", "job_title": "program manager"},
-      {"company_name": "b", "job_title": "civil affairs team chief"},
-      {"company_name": "aig environmental", "job_title": "environmental underwriter"},
-      {"company_name": "tabacchi group", "job_title": "senior vice president"},
-      {"company_name": "radiant group", "job_title": "program manager and system engineer iv"},
-      {"company_name": "northrop grumman corporation", "job_title": "senior analyst and hydrologist"},
-      {"company_name": "us army", "job_title": "intelligence lieutenant"}
-    ],
-    "education": [
-      {"school_name": "jones real estate college", "degrees": [], "majors": ["real estate"]},
-      {"school_name": "metropolitan state university of denver", "degrees": ["bachelors", "bachelor of science"], "majors": ["management"]}
-    ],
-    "phone_numbers": ["+13038806036", "+13033731555", "+13037637552", "+13038630707"],
-    "emails": [
-      {"address": "cptsolove@gmail.com", "type": "personal"},
-      {"address": "joshua.solove@radianthrworld.com", "type": "professional"},
-      {"address": "jsolove@azimuth-corp.com", "type": "current_professional"}
-    ],
-    "facebook_url": "facebook.com/jsolove"
-  },
-  {
-    "id": 299,
     "full_name": "ramiz azeez",
     "gender": null,
     "linkedin_url": "linkedin.com/in/ramiz-azeez-0a6207116",
@@ -11021,7 +10973,7 @@
     "facebook_url": "facebook.com/ramiz.aziz.3"
   },
   {
-    "id": 300,
+    "id": 298,
     "full_name": "sergei shatalov",
     "gender": null,
     "linkedin_url": "linkedin.com/in/sergei-shatalov-a177833",
@@ -11075,7 +11027,7 @@
     "facebook_url": "facebook.com/sergei.shatalov"
   },
   {
-    "id": 301,
+    "id": 299,
     "full_name": "perry staten",
     "gender": null,
     "linkedin_url": "linkedin.com/in/perry-staten-205aa3a4",
@@ -11130,7 +11082,7 @@
     "facebook_url": "facebook.com/perry.staten"
   },
   {
-    "id": 302,
+    "id": 300,
     "full_name": "christopher duprey",
     "gender": null,
     "linkedin_url": "linkedin.com/in/cduprey",
@@ -11175,7 +11127,7 @@
     "facebook_url": "facebook.com/christopher.t.duprey"
   },
   {
-    "id": 303,
+    "id": 301,
     "full_name": "eric mercado",
     "gender": null,
     "linkedin_url": "linkedin.com/in/eric-mercado-mba-32881941",
@@ -11233,7 +11185,7 @@
     "facebook_url": null
   },
   {
-    "id": 304,
+    "id": 302,
     "full_name": "marc yablonka",
     "gender": null,
     "linkedin_url": "linkedin.com/in/marc-yablonka-872a046",
@@ -11282,7 +11234,7 @@
     "facebook_url": null
   },
   {
-    "id": 305,
+    "id": 303,
     "full_name": "darrick meyer",
     "gender": null,
     "linkedin_url": "linkedin.com/in/darrick-meyer-65887ab5",

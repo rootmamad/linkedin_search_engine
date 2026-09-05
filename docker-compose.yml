@@ -21,12 +21,14 @@ services:
       retries: 5
 
   elasticsearch:
-    image: elasticsearch:7.17.18
+    build:
+      context: .
+      dockerfile: Dockerfile.elasticsearch
     container_name: linkedin_elasticsearch
     restart: always
     environment:
       - discovery.type=single-node
-      - xpack.security.enabled=false 
+      - xpack.security.enabled=false
       - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
     ports:
       - "9200:9200"
@@ -37,10 +39,13 @@ services:
       interval: 10s
       timeout: 5s
       retries: 5
-  ingest_job:
+  backend:
     build: .
-    container_name: linkedin_ingest_job
-    command: python -m scripts.ingest
+    container_name: linkedin_backend  
+    command: sh -c "python -m scripts.ingest && python -m scripts.ingest_elasticsearch && uvicorn backend.main:app --host 0.0.0.0 --port 8000 --reload"
+    volumes:
+      - ./data:/app/data:ro
+      - .:/app 
     environment:
       - POSTGRES_HOST=postgres
       - ELASTICSEARCH_HOST=http://elasticsearch:9200
@@ -52,6 +57,8 @@ services:
         condition: service_healthy
       elasticsearch:
         condition: service_healthy
+    ports:
+      - "8000:8000"
 volumes:
   postgres_data:
   es_data:
