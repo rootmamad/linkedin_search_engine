@@ -7,10 +7,10 @@ if not es_host.startswith(("http://", "https://")):
 
 es_client = Elasticsearch(es_host)
 INDEX_NAME = "linkedin_profiles"
-
+#elasticsearch index name
 
 def create_index_if_not_exists():
-    
+    """creating index for data"""
     if es_client.indices.exists(index=INDEX_NAME):
         return
 
@@ -35,7 +35,7 @@ def create_index_if_not_exists():
             }
         }
     }
-
+    #mapping structure
     mapping = {
         "settings": settings,
         "mappings": {

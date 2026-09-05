@@ -8,7 +8,7 @@ import psycopg2
 from psycopg2.extras import execute_values, Json
 
 from backend.core.config import settings
-
+#ingesting data to postgresql 
 DB_CONFIG = {
     "dbname": settings.POSTGRES_DB,
     "user": settings.POSTGRES_USER,
@@ -65,6 +65,8 @@ INSERT_EDUCATIONS_TEMPLATE = "(%(person_id)s, %(school_name)s, %(degrees)s, %(ma
 
 
 def load_records(json_path: str) -> List[Dict[str, Any]]:
+    """load records from json file"""
+
     records: List[Dict[str, Any]] = []
 
     if os.path.isdir(json_path):
@@ -121,6 +123,7 @@ def to_list_or_none(value: Any, context: str = "") -> Optional[List[Any]]:
 
 
 def normalize_person(record: Dict[str, Any]) -> Optional[Dict[str, Any]]:
+    """normalize and cleaning json data"""
     raw_id = record.get("id")
     if raw_id is None:
         logger.error(f"Skipping record with missing 'id' field: full_name={record.get('full_name')!r}")
@@ -156,6 +159,8 @@ def normalize_person(record: Dict[str, Any]) -> Optional[Dict[str, Any]]:
 
 
 def normalize_experiences(person_id: int, items: Any) -> List[Dict[str, Any]]:
+    """normalize and cleaning json data"""
+
     if items is None:
         return []
     if not isinstance(items, list):
@@ -176,6 +181,8 @@ def normalize_experiences(person_id: int, items: Any) -> List[Dict[str, Any]]:
 
 
 def normalize_educations(person_id: int, items: Any) -> List[Dict[str, Any]]:
+    """normalize and cleaning json data"""
+
     if items is None:
         return []
     if not isinstance(items, list):
@@ -197,10 +204,10 @@ def normalize_educations(person_id: int, items: Any) -> List[Dict[str, Any]]:
 
 
 def import_person(cursor, person: Dict[str, Any], experiences: List[Dict[str, Any]], educations: List[Dict[str, Any]]) -> None:
+    """run and execute queries"""
     cursor.execute(PEOPLE_UPSERT_SQL, person)
 
-    # Replacing child rows on every run keeps re-imports idempotent, since
-    # experiences/educations have no natural unique key to upsert against.
+
     cursor.execute(DELETE_EXPERIENCES_SQL, (person["id"],))
     cursor.execute(DELETE_EDUCATIONS_SQL, (person["id"],))
 

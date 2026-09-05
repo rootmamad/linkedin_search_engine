@@ -1,7 +1,7 @@
 from datetime import datetime
 from typing import List, Optional
 from pydantic import BaseModel, Field
-
+#schemas for responce and requests
 class PersonFilterParams(BaseModel):
     q: Optional[str] = Field(None, description="سرچ متنی روی نام، عنوان شغلی، شرکت و خلاصه")
     

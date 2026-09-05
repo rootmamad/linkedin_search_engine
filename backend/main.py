@@ -12,5 +12,5 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
+#declaring fastapi app and some fastapi configurations
 app.include_router(search_router)

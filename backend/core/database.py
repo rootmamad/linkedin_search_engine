@@ -9,7 +9,7 @@ pool = SimpleConnectionPool(
     maxconn=20,
     dsn=settings.DATABASE_URL
 )
-
+#get db session using generators
 @contextmanager
 def get_db_connection():
     conn = pool.getconn()

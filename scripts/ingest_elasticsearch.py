@@ -16,6 +16,7 @@ logger = logging.getLogger("ingest_es")
 
 
 def load_records(path: str) -> List[Dict[str, Any]]:
+    """loading data from json"""
     records = []
     if os.path.isdir(path):
         files = [f for f in os.listdir(path) if f.endswith(".json")]
@@ -38,6 +39,7 @@ def load_records(path: str) -> List[Dict[str, Any]]:
 
 
 def normalize(record: Dict[str, Any]) -> Optional[Dict[str, Any]]:
+    """normalization and cleaning data"""
     person_id = record.get("id")
     if person_id is None:
         logger.warning(f"Skipping record without 'id': {record.get('full_name')}")
@@ -109,6 +111,7 @@ def index_bulk(records: List[Dict[str, Any]]) -> int:
 
 
 def main():
+    """Sends all actions in a single bulk request"""
     import argparse
     parser = argparse.ArgumentParser()
     parser.add_argument("--path", default="data/data.json")
